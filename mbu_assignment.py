@@ -20,22 +20,9 @@
 #          
 # What happens if you enter a value that is not a number?
 #
-
-import sys
-import string
-
-def main():
-
-    #Remember that the first element (element 0) of sys.argv is the program name.
-    print "The name of the script is " + str(sys.argv[0])+"."
-    #Remember to convert numbers into strings before printing them.
-    print "You have entered " + str(len(sys.argv[1:])) + " arguments."
-    print "They are: " 
-
-    #This is for loop. We take each element from sys.argv and print it to the consile.
-    for i in sys.argv[1:]:
-        print str(i)
-        print "\n"
-
-if __name__ == '__main__':
-    main()
+if (a % 2 == 1):
+       print "blah"
+  else:
+       print "blah"
+                  
+        
