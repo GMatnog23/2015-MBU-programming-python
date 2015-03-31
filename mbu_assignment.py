@@ -20,9 +20,29 @@
 #          
 # What happens if you enter a value that is not a number?
 #
-if (a % 2 == 1):
-       print "blah"
-  else:
-       print "blah"
-                  
-        
+
+import sys
+import string
+
+ def main():
+       
+       
+       print "The name of the script is " + str(sys.argv[0])+"."
+
+       print "You have entered " + str(len(sys.argv[1:])) + " arguments."
+       print "They are: "
+
+
+       for i in sys.argv[1:] :
+           print str(i)
+           print "\n"
+           
+ if _name_ == '_main_':
+    main()    
+    
+"a = int(i)
+if a% 2 == 1:
+print "blah"
+else:
+print "blah"
+              
