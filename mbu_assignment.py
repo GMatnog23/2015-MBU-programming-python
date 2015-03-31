@@ -21,8 +21,8 @@
 # What happens if you enter a value that is not a number?
 #
 
-import sys
-import string
+ import sys
+ import string
 
  def main():
        
